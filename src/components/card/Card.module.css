@@ -1,0 +1,46 @@
+.card {
+}
+
+.card:hover .card__image {
+  transform: scale(1.05);
+}
+
+.card__image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: .4s all;
+}
+
+.card__footer {
+  height: 80px;
+  padding-top: 28px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__footer::after {
+  content: '';
+  width: 32px;
+  height: 100%;
+  position: absolute;
+  top: 60%;
+  right: 0;
+  background: url('./../../img/icons/arrow.svg') no-repeat;
+}
+
+.card__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.55;
+  letter-spacing: -0.04em;
+}
+
+.card__action {
+  font-size: 24px;
+  line-height: 2.08;
+  letter-spacing: -0.04em;
+  color: var(--text-second-color);
+}

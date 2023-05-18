@@ -1,0 +1,58 @@
+:root {
+  --text-color: #262626;
+  --text-second-color: #7F7F7F;
+  --white-color: #fefefe;
+  --bg-yellow-color: #EBD96B;
+  --bg-grey-color: #F4F6F5;
+  --accent-color: #1050da;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.section__title {
+  display: inline-block;
+  position: relative;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+}
+
+.section__title::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 32px;
+  width: 190px;
+  background: url('./../img/icons/decor-yellow.svg');
+  z-index: -1;
+}
+
+.btn {
+  display: inline-block;
+  padding: 19px 40px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: -0.05em;
+  background: var(--text-color);
+  color: var(--white-color);
+  border-radius: 10px;
+}
