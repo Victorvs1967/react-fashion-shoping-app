@@ -1,0 +1,32 @@
+.voucher {
+  padding-bottom: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.voucher__content {
+  max-width: 510px;
+}
+
+.voucher__title {
+  padding-bottom: 41px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+}
+
+.voucher__text {
+  padding-bottom: 65px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.46;
+  letter-spacing: -0.04em;
+  color: var(--text-second-color);
+}
+
+.voucher__wrapper a + a {
+  margin-left: 19px;
+}

@@ -1,0 +1,58 @@
+.community {
+  padding: 141px 0 156px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--bg-yellow-color);
+}
+
+.community__title {
+  max-width: 970px;
+  padding-bottom: 37px;
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 1.27;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.community__subtitle {
+  max-width: 1020px;
+  padding-bottom: 49px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.09;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.community__form {
+  max-width: 575px;
+  padding: 10px;
+  background: var(--white-color);
+  border-radius: 10px;
+}
+
+.community__input {
+  padding-left: 27px;
+}
+
+.community__input::placeholder {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  color: var(--text-second-color);
+}
+
+.community__btn {
+  padding: 15px 35px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 1.06;
+  text-transform: capitalize;
+  background: var(--text-color);
+  color: var(--white-color);
+  border-radius: 10px;
+}

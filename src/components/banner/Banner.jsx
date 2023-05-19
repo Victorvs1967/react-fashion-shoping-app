@@ -16,7 +16,7 @@ const Banner = () => {
           <div className="banner__subtitle">
             <span>Spend minimal $100 get 30% off</span>
             <span>voucher code for your next purchase</span>
-            <span className='banner__bold'>1 June - 10 June 2021</span>
+            <span className='banner__bold'>1 June - 10 June 2023</span>
             <span>*Terms & Conditions apply</span>
           </div>
           <a href='#!' className="banner__btn btn">SHOP NOW</a>

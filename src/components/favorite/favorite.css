@@ -1,5 +1,5 @@
 .favorite {
-  padding-top: 150px;
+  padding: 150px 0 220px;
 }
 
 .favorite__title {
@@ -9,5 +9,5 @@
 .favorite__cards {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 47px;
 }

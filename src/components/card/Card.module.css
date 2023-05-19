@@ -1,8 +1,13 @@
 .card {
+  display: block;
 }
 
 .card:hover .card__image {
-  transform: scale(1.05);
+  animation: scale .6s ease-in-out;
+}
+
+.card:hover .card__footer::after {
+  animation: shift .6s ease-in-out;
 }
 
 .card__image {
@@ -43,4 +48,28 @@
   line-height: 2.08;
   letter-spacing: -0.04em;
   color: var(--text-second-color);
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes shift {
+  0% {
+    right: 0;
+  }
+  50% {
+    right: 15px;
+  }
+  100% {
+    right: 0;
+  }
 }
