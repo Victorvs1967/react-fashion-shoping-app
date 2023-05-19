@@ -28,13 +28,18 @@
 }
 
 .community__form {
-  max-width: 575px;
+  min-width: 575px;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
   background: var(--white-color);
   border-radius: 10px;
 }
 
 .community__input {
+  width: 100%;
   padding-left: 27px;
 }
 
